@@ -125,7 +125,7 @@ function draw() {
      console.log("hey")
       gameOver.visible = true;
       restart.visible = true;
-      if((touches.length > 0)||(keyDown("space")){
+      if((touches.length > 0)||(keyDown("space"))){
         reset();
         touches = [];
 
